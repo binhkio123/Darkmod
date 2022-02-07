@@ -1,0 +1,21 @@
+
+* {
+    --wash : #3c3c3c !important;
+    color: rgb(210, 210, 210) !important;
+}
+
+:root {
+    --link : url('https://c.wallhere.com/photos/fd/a8/minimalism_texture_black_background_black_armor_rose_illustration_fan_art_dark_background-1426209.jpg!d');
+    --surface-background : #242526 !important;
+    --messenger-card-background : #242526 !important;
+}
+
+.bg-set {
+    background: var(--link);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.j83agx80, .k4urcfbm, .ns4p8fja  {
+    background-color: #242526 !important;
+}

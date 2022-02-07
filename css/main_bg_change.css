@@ -1,0 +1,82 @@
+
+.bg-body {
+    top: 0;
+    right: 5px;
+    position: fixed;
+    z-index: 1000;
+    max-width: 30%;
+}
+.bg-icon {
+    background: transparent;
+    width: 100%;
+    text-align: right;
+}
+#bg-icon {
+    background: rgba(80, 80, 80, 0.8);
+    right: 0;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.bg-main {
+    display: inline-block;
+    background: rgba(80, 80, 80, 0.9);
+    font-family: 'Segoe UI', Verdana, Tahoma, sans-serif;
+    color: rgb(199, 199, 199);
+    border-radius: 12px;
+    padding: 0 10px 10px;
+    box-shadow: white 2px;
+}
+
+
+.bg-header {
+    text-shadow: 1px 2px 1px rgba(42, 141, 255, 0.8);
+    font-size: 16px;
+    color: rgb(221, 221, 221);
+    margin-top: 4px;
+    text-align: center;
+}
+.bg-header-title{
+    margin: 0;
+}
+.bg-content {
+    /* margin-left: 8%; */
+    text-shadow: 1px 2px 1px rgba(42, 141, 255, 0.8);
+    font-size: 14px;
+    margin: 0 4px;
+}
+.bg-content-title {
+    padding: 8px 8px;
+}
+
+input.new-bg-img {
+    background-color: rgb(70, 70, 70);
+    border-radius: 6px;
+    border: 2px solid rgba(42, 141, 255, 0.8) !important;
+    color: rgb(190, 190, 190);
+    width: 55%;
+    padding: 1px 0;
+}
+.bg-img {
+    text-align: center;
+    color: rgb(238, 238, 238);
+    background-color: rgba(42, 141, 255, 0.8);
+    display: inline-block;
+    border-radius: 4px;
+    width: 30%;
+    padding: 2px 8px;
+    float: right;
+    font-weight: bold;
+}
+.bg-img-apply {
+    display: inline-block;
+    cursor: pointer;
+}
+.bg-img-reload {
+    transform: translateY(35%);
+    margin-left: 4px;
+    float: right;
+    cursor: pointer;
+    height: 12px;
+}

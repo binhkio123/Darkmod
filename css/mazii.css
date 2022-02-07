@@ -1,0 +1,22 @@
+:root {
+    --link : url('https://c.wallhere.com/photos/fd/a8/minimalism_texture_black_background_black_armor_rose_illustration_fan_art_dark_background-1426209.jpg!d');
+}
+
+.bg-set {
+    background: var(--link) !important;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.mazii-ads-header {
+    opacity: 0;
+}
+
+.box-header .line-main {
+    background-color: rgb(61, 61, 61) !important;
+    opacity: 0.85;
+}
+.box-header .line-small {
+    background-color: rgb(61, 61, 61) !important;
+    opacity: 0.3;
+}

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --link : url('https://c.wallhere.com/photos/fd/a8/minimalism_texture_black_background_black_armor_rose_illustration_fan_art_dark_background-1426209.jpg!d');
+}
+
+html body {
+    background-image: var(--link) ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: right;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.bg-main {
+    font-family: 'Segoe UI', Verdana, Tahoma, sans-serif;
+    color: rgb(199, 199, 199);
+    border-radius: 12px;
+    padding: 10px 10px;
+}
+
+.bg-header {
+    text-shadow: 1px 2px 1px rgba(42, 141, 255, 0.8);
+    font-size: 16px;
+    color: rgb(221, 221, 221);
+    margin-top: 4px;
+    text-align: center;
+}
+
+.bg-content {
+    /* margin-left: 8%; */
+    text-shadow: 1px 2px 1px rgba(42, 141, 255, 0.8);
+    font-size: 14px;
+    margin: 8px 4px;
+}
+.bg-content-title {
+    padding: 8px 8px;
+}
+
+input.new-bg-img {
+    background-color: rgb(70, 70, 70);
+    border-radius: 6px;
+    border: 2px solid rgba(62, 152, 255, 0.8) !important;
+    color: rgb(190, 190, 190);
+    width: 55%;
+    padding: 2px 2px;
+}
+.bg-img {
+    float: right;
+    text-align: center;
+    color: rgb(238, 238, 238);
+    background-color: rgba(42, 141, 255, 0.8);
+    border-radius: 4px;
+    width: 35%;
+    padding: 2px 8px;
+}
+.bg-img-review {
+    display: inline-block;
+    cursor: pointer;
+}
+.bg-img-reload {
+    transform: translateY(35%);
+    margin-left: 4px;
+    cursor: pointer;
+    float: right;
+    height: 12px;
+}
+
+.bg-save-img {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    width: 40%;
+    padding: 2px 8px;
+    text-align: center;
+    color: rgb(238, 238, 238);
+    background-color: rgba(42, 141, 255, 0.8);
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+
+.bg-img-review:hover ,.bg-img-reload:hover,
+.bg-save-img:hover   {
+    font-weight: bold;
+}
+
+.bg-list{
+    list-style: none;
+}

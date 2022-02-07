@@ -1,0 +1,47 @@
+:root {
+    --link : url('https://c.wallhere.com/photos/fd/a8/minimalism_texture_black_background_black_armor_rose_illustration_fan_art_dark_background-1426209.jpg!d');
+}
+
+.bg-set{
+    background: var(--link);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+body > .RvYhPd::before, .mqNsCe .ySES5, .oLzOxb .Kk7lMc-Yb-Il-j {
+    background-color: transparent;
+}
+
+body .sfbg, .main .yg51vc, .main .appbar, .kp-blk, .I6TXqe, .VqFMTc, .cu-container .mnr-c, .gb_Ne,
+.g5SSAf .ta-gc-np-Nd, .zCNSJd .L202Xe, .s55KNe .jGNTYb, .N7iPof, .freebirdFormviewerViewItemsItemItem,
+.freebirdFormviewerViewHeaderHeader, .freebirdFormviewerComponentsQuestionBaseRoot,
+.freebirdFormviewerViewResponseConfirmContentContainer {
+    background: transparent !important;
+}
+.zCNSJd .L202Xe {
+    border-color: rgb(82, 88, 105);
+}
+.RwLyCe .eAQ1W, .RwLyCe .Vl9rfc, .z3vRcc {
+    color: rgb(175, 190, 197) !important;
+}
+
+.mqNsCe .TcXXXb, #gs_lc50 .gb_8e, .s55KNe .jGNTYb, .M3pype .jApF8d, .M3pype .KL4NAf,
+.freebirdFormviewerViewItemsItemItemTitle, .exportLabel,
+.freebirdFormviewerViewItemsTextDisabledText, .freebirdFormviewerViewHeaderTitle,
+.freebirdFormviewerComponentsQuestionBaseTitle, .exportInput,
+.freebirdFormviewerViewNavigationPasswordWarning, .freebirdFormviewerViewResponsePageTitle,
+.freebirdFormviewerViewResponseMessage {
+    color: rgb(189, 189, 189) !important;
+}
+
+.gssb_f .gssb_e, .gssb_e .gssb_m, .gb_ze .a-jn-yd, .a-s-yd-J, .joJglb {
+    color: rgb(206, 206, 206);
+    background-color: rgb(54, 54, 54) !important;
+}
+.a-jn-Ma-nb-J, .GZwC2b .jGNTYb {
+    color: rgb(206, 206, 206) !important;
+    background-color: rgb(88, 88, 88) !important;
+}
+.gssb_e .gssb_i, .a-s-yd-J.a-s-yd-Sa>*{
+    background-color: rgb(47, 66, 78) !important;
+}

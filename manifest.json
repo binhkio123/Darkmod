@@ -1,0 +1,40 @@
+{
+    "manifest_version": 2,
+    "name": "Web-Darkmod Extension",
+    "description": "Test version 0.0.3",
+    "version": "0.0.3",
+    "icons":{
+        "16": "/img/icon16.png",
+        "48": "/img/icon48.png"
+    },
+    "browser_action": {
+        "default_popup": "display.html",
+        "default_title": "Darkmod"
+    },
+    "content_scripts": [
+        {
+            "matches":["<all_urls>"],
+            "js":["/jquery-3.6.0.min.js"]
+        },
+        {
+            "matches": ["https://*.google.com/*","https://www.google.com.vn/*"],
+            "css": ["/css/google-search.css"],
+            "js": ["/js/main_bg_change.js","/js/add_link_bg.js"]
+        },
+        {
+            "matches": ["https://viblo.asia/*"],
+            "css": ["/css/viblo-asia.css"],
+            "js": ["/js/main_bg_change.js","/js/add_link_bg.js"]
+        },
+        {
+            "matches": ["https://www.messenger.com/*"],
+            "css": ["/css/messenger.css"],
+            "js": ["/js/main_bg_change.js","/js/add_link_bg.js"]
+        },
+        {
+            "matches": ["https://mazii.net/*"],
+            "css":["/css/mazii.css"],
+            "js": ["/js/main_bg_change.js","/js/add_link_bg.js"]
+        }
+    ]
+}
