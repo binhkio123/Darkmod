@@ -1,5 +1,6 @@
 :root {
     --link : url('https://c.wallhere.com/photos/fd/a8/minimalism_texture_black_background_black_armor_rose_illustration_fan_art_dark_background-1426209.jpg!d');
+    --font-color : rgb(190, 190, 190);
 }
 
 .bg-set{
@@ -22,7 +23,7 @@ body .sfbg, .main .yg51vc, .main .appbar, .kp-blk, .I6TXqe, .VqFMTc, .cu-contain
     border-color: rgb(82, 88, 105);
 }
 .RwLyCe .eAQ1W, .RwLyCe .Vl9rfc, .z3vRcc {
-    color: rgb(175, 190, 197) !important;
+    color: var(--font-color) !important;
 }
 
 .mqNsCe .TcXXXb, #gs_lc50 .gb_8e, .s55KNe .jGNTYb, .M3pype .jApF8d, .M3pype .KL4NAf,
@@ -31,15 +32,15 @@ body .sfbg, .main .yg51vc, .main .appbar, .kp-blk, .I6TXqe, .VqFMTc, .cu-contain
 .freebirdFormviewerComponentsQuestionBaseTitle, .exportInput,
 .freebirdFormviewerViewNavigationPasswordWarning, .freebirdFormviewerViewResponsePageTitle,
 .freebirdFormviewerViewResponseMessage {
-    color: rgb(189, 189, 189) !important;
+    color: var(--font-color) !important;
 }
 
 .gssb_f .gssb_e, .gssb_e .gssb_m, .gb_ze .a-jn-yd, .a-s-yd-J, .joJglb {
-    color: rgb(206, 206, 206);
+    color: var(--font-color) !important;
     background-color: rgb(54, 54, 54) !important;
 }
 .a-jn-Ma-nb-J, .GZwC2b .jGNTYb {
-    color: rgb(206, 206, 206) !important;
+    color: var(--font-color) !important;
     background-color: rgb(88, 88, 88) !important;
 }
 .gssb_e .gssb_i, .a-s-yd-J.a-s-yd-Sa>*{
@@ -47,16 +48,25 @@ body .sfbg, .main .yg51vc, .main .appbar, .kp-blk, .I6TXqe, .VqFMTc, .cu-contain
 }
 
 .OPPzxe > .UnxENd, .OPPzxe > .P6w8m.BDJ8fb:not(.Jj6Lae), .KmsAmb .tL9Q4c, .J0lOec, .er8xn,
-    .yFQBKb  {
-    color: rgb(170, 170, 170) !important;
+    .yFQBKb, .P6w8m  {
+    color: var(--font-color) !important;
     background-color: rgb(29, 29, 29) !important;
 }
 
-.JLqJ4b:hover, .fMHXgc {
-    background-color: rgb(54, 54, 54) !important;
+.JLqJ4b:hover, .fMHXgc, .ita-hwt-ime {
+    background-color: rgb(36, 36, 36) !important;
 }
 
-.ccvoYb, .bvzp8c, .qSb8Pe, .vLsFwd  {
-    color: rgb(170, 170, 170) !important;
+.vLsFwd {
+    background-color: transparent !important;
+}
+
+.ccvoYb, .bvzp8c, .qSb8Pe, .I87fLc.XzOhkf, .I87fLc.FnSTic.XzOhkf  {
+    color: var(--font-color) !important;
     background-color: #141314e8 !important;
+}
+
+.scLCMd {
+    background-color: #757575;
+    border-radius: 5px !important;
 }
