@@ -35,7 +35,11 @@ $(document).ready(function(){
     let stt = 0;
     setInterval(() => {
         if(stt === imageURL.length) stt = 0;
-        $(".bg-set").css("background-image", "var(" + imageURL[stt].link);
+        let curURL = imageURL[stt].link;
+        let bg = document.getElementsByClassName("bg-set");
+        document.css
+        $(".bg-set").css("background-image", "var(" + curURL);
+        console.log(curURL);
         stt++;
     },1000)
 });
