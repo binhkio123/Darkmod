@@ -30,16 +30,18 @@ const imageURL = [
     },
 ]
 
+
+function showButton(){
+    $("body").append("content");
+}
+
 $(document).ready(function(){
     $("html body, html body.srp, html body.aAU, .LX3sZb #gb, header#gb, .RvYhPd, .MOkH4e .hgbeOc, .main").addClass("bg-set");
     let stt = 0;
-    setInterval(() => {
+    window.setInterval(() => {
         if(stt === imageURL.length) stt = 0;
-        let curURL = imageURL[stt].link;
-        let bg = document.getElementsByClassName("bg-set");
-        document.css
-        $(".bg-set").css("background-image", "var(" + curURL);
-        console.log(curURL);
+        $(".bg-set").css("background-image", imageURL[stt].link);
+        console.log(stt);
         stt++;
     },1000)
 });
